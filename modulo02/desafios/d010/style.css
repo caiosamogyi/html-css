@@ -1,0 +1,119 @@
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+body {
+    background-color: rgba(0, 128, 0, 0.328);
+    margin: 0px;
+    font-family: sans-serif;
+}
+header {
+    text-shadow: 5px 3px 7px black;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.356), green, rgba(0, 0, 0, 0.457));
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    
+}
+nav {
+    margin: 0px 0px 0px 10px;
+    text-align: left;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+p > a {
+    margin: 10px;
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+p > a::after {
+    content: " \1F517";
+}
+main {
+    border-radius: 0px 0px 10px 10px;
+    text-align: justify;
+    padding: 15px;
+    width: 900px;
+    margin: auto;
+    background-color: white;
+}
+h2 {
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.202), white);
+}
+.titulo {
+    padding: 0px 0px 0px 10px;
+    margin: 10px;
+    color: rgb(1, 79, 1);
+    font-family: 'idroid';
+}
+ul {
+    list-style: none;
+}
+p {
+    text-indent: 40px;
+}
+#list1 {
+    width: 350px;
+    display: inline-block;
+    text-align: left;
+}
+#list2 {
+    width: 350px;
+    display: inline-block;
+    text-align: left;
+}
+li > a {
+    color: black;
+}
+li::before {
+    content: " \2714";
+}
+aside {
+    border-radius: 5px;
+    padding: 0px 10px;
+    background-color: rgba(0, 128, 0, 0.17);
+}
+#video {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: rgb(3, 39, 3);
+    margin: 0px -15px 30px -15px;
+    width: auto;
+}
+#video > iframe {
+    width: 90%;          /* Ocupa 90% da largura do fundo verde */
+    max-width: 700px;    /* Não deixa o vídeo ficar exageradamente grande */
+    aspect-ratio: 16/9;  /* Mantém a proporção de vídeo do YouTube */
+    height: auto;        /* Ajusta a altura automaticamente */
+}
+.center {
+    
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+#destaque {
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px -10px 15px -10px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.679);
+}
+footer {
+    font-size: 0.8em;
+    padding: 5px 0px;
+    margin: 25px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    background-color: rgb(11, 72, 11);
+}
+span {
+    font-weight: bold;
+    color: rgb(15, 93, 15);
+}

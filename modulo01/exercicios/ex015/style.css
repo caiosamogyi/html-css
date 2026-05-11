@@ -1,0 +1,14 @@
+        body{
+            background-color: rgb(227, 239, 86);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+        h1{
+            color: coral; 
+        }
+        h2{
+            color: crimson;
+        }
+        p{
+            color: blue;
+        }

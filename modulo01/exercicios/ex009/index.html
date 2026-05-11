@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>Podemos usar a tag code <code>document.getElementaryById('teste')</code> para dar um espaçamento igual para todas as letras <br>ficando assim mais prático e fácil para ler;</p>
+
+    <!--O comando shift+tab pode ser usado ao selecionar uma parte do codigo para que tudo seja movido para trás , ficando mais próximo a borda
+    Já o tab sozinho , serve para afastar , ficando mais longe da borda
+    -->
+
+    <pre> <!-- A tag pre , é usada para que o conteúdo dentro dela seja mostrado exatamente como é escrito , com indentação , espaços , posição , quebras . etc -->
+        <code>
+    num = int(input('Digite um numero'))
+    if num % 2 == 0:
+        print(f'O numero {num} é PAR)
+    else:
+        print(f'O numero {num} é IMPAR)
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2> <!--Use a tag q , quando for citar uma fala-->
+    <p>Como diria o pai de um amigo , <q>o computador é um burro muito rápido</q>.</p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble no seu livro html para leigos:</p>
+    <blockquote cite="www.google.com">
+        A diferença entre elementos inline e um bloco de texto é importante.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Não sei pra que usaria isso</bdo></p>
+
+
+
+
+
+<h2>Exercicio</h2>
+<p>Crie uma lista mista , separados por plataforma , com seus jogos favoritos:</p>
+<h2>Meus jogos favoritos</h2>
+<ol>
+    <li type="disc">PC
+        <ol type="1">
+            <li>Resident Evil
+            <li>Call of Duty</li>
+            <li>Fallout</li>
+        </ol>
+    <li type="disc">Xbox</li>
+        <ol type="1">
+            <li>Need for Speed</li>
+            <li>TEKEN</li>
+        </ol>
+    <li type="disc">PlayStation</li>
+        <ol type="1">
+            <li>The Last Of Us</li>
+            <li>Crash Bandicoot</li>
+        </ol>
+</ol>
+</body>
+</html>

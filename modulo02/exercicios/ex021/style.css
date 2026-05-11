@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+    
+}
+h1#principal{
+    background-color: brown;
+}
+h1#secundario{
+    background-color: blue;
+    color: white;
+}
+.formas{
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 255, 0);
+}

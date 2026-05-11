@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        /* Shorhands: -- Se somente um valor for configurado , os  valores serão iguais. --
+                    -- Se 2 forem configurados , topo/baixo , esq/dir terão os respectivos valores --
+
+                    border: largura(10px) estilo(solid) cor(blue)
+                    padding: topo direita baixo esquerda
+                    margin: podemos centralizar colocando margem esq/dir automaticas.
+                    outline: largura estilo cor.
+        */
+
+        h1 {
+            height: 300px;
+            border: 5px solid black;
+            padding: 10px 20px;
+            margin: auto;
+            width: 300px;
+            outline: 3px dashed rgb(20, 255, 3);
+            background-color: lightgray;
+        }
+        a {
+            border: 2px solid red;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo Box level</h1>
+    <p>Parágrafos também são exemplos de box level , mas os <a href="#">links são exemplos de inline.</a> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolore architecto, ullam quam nisi porro harum dolor sapiente necessitatibus reprehenderit nesciunt libero illum nostrum at distinctio esse, aspernatur fugit sunt.</p>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento </title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body{
+            font-family: sans-serif;
+            background-color: lightslategray;
+        }
+        header{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        article{
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.307);
+            border-radius: 5px 20px;
+            padding: 10px;
+            background-color: blueviolet;
+            padding: 5px;
+        }
+        article > aside{
+            color: brown;
+        }
+        nav{
+            
+            padding: 4px;
+
+            box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.323);
+            background-color: rgb(186, 194, 35);
+        }
+        nav > a{
+
+            margin-right: 10px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        nav > a:hover{
+            text-decoration: none;
+            color: red;
+        }
+        footer{
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+            padding: 15px;
+        }
+        #roda {
+            height: 30px;
+            width: 100px;
+            margin: 5px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="roda">
+            <img width="100" height="100" src="imagem_quebrada.png" alt="">
+        </div>
+            <h1>Site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, minus iusto dicta ullam molestiae neque velit quod at fuga consectetur, numquam deleniti! Numquam officiis eligendi quaerat, commodi quod corrupti ducimus.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre alguma coisa</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sequi, dolore quidem quos alias natus debitis molestias veniam odit cumque maxime a rem illo error id unde! Recusandae, sapiente aliquid.</p>
+                <aside>
+                    <p>Artigo escrito por tralala</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>
